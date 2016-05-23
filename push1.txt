@@ -1,0 +1,18 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+var send="Hello";
+var dataString='valued='+send;
+    $.ajax({
+             type: "POST",
+             ur1:"htt://idilibrain.com/workshop/ajax_call.php",
+             data:dataString,
+             success: function(output) {
+                  
+                           alert(output);
+}
+}};
+}};
+nebujohn4u@gmail.com
